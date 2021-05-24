@@ -1,0 +1,39 @@
+/* **************************** */
+/* LAYOUTS */
+/* **************************** */
+
+/* MENU NAVEGADOR */
+header{
+    background-color: map-get($colorHeader, primero);
+}
+img{
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* BANNER-MAIN */
+picture{
+    display:flex
+}
+
+/* ZIGZAG-MAIN */
+
+
+/* FOOTER */
+
+footer{
+    background-color: map-get($colorFooter, primer_fondo);
+}
+article{
+    display: flex;
+    
+}
+.redes_sociales, .acerca_de{
+    display: flex;
+
+}
